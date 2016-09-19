@@ -8,7 +8,7 @@ PROD=$(softwareupdate -l |
   tr -d '\n')
 softwareupdate -i "$PROD" -v;
 #Create coretraining folder in Shared folder
-mkdir -p /Shared\ Items/coretraining
+sudo mkdir -p /Shared\ Items/coretraining
 # Clone the iStore-Training Repo into Library
 git clone https://github.com/core-group/iStoresTraining.git /Shared\ Items/coretraining
 # Copy LaunchDaemon
