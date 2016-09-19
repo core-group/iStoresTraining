@@ -10,5 +10,5 @@ softwareupdate -i "$PROD" -v;
 #Create coretraining folder in Shared folder
 mkdir -p /Shared\ Items/Techs/coretraining
 # Clone the iStore-Training Repo into Library
-git clone https://github.com/core-group/iStoresTraining.git /Library/iStore\ Training
+git clone https://github.com/core-group/iStoresTraining.git /Shared\ Items/Techs/coretraining
 # Copy LaunchDaemon
