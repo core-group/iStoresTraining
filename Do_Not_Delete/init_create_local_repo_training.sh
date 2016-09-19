@@ -13,4 +13,4 @@ sudo mkdir -p /Shared\ Items/coretraining
 git clone https://github.com/core-group/iStoresTraining.git /Shared\ Items/coretraining
 # Copy LaunchDaemon
 sudo cp /Shared\ Items/coretraining/com.core.istore.run_training_gitpull.plist /Library/LaunchDaemons/
-launchctl load -w /Library/LaunchDaemons/com.core.istore.run_training_gitpull.plist
+sudo launchctl load -w /Library/LaunchDaemons/com.core.istore.run_training_gitpull.plist
