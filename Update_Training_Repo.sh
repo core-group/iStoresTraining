@@ -1,2 +1,2 @@
 #! /bin/bash
-/usr/bin/git -C /Shared Items/coretraining
+/usr/bin/git -C /Shared\ Items/coretraining
