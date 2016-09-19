@@ -7,11 +7,11 @@
 	<key>ProgramArguments</key>
 	<array>
 		<string>/bin/sh</string>
-		<string>/Library/iStores/Update_Marketing_Repo.sh</string>
+		<string>/Library/iStores/Update_Training_Repo.sh</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
 	<key>StartInterval</key>
-	<integer>0 20 * * *</integer>
+	<integer>3600</integer>
 </dict>
 </plist>
